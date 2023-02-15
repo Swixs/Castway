@@ -98,7 +98,6 @@ body {
 
 /* ============================================================= */
 
-.header-content__right-header {}
 
 .right-header__title {
     font-weight: 400;
@@ -134,9 +133,6 @@ body {
 
 }
 
-.right-header__partners-items {
-
-}
 
 .partners-items__text {
     font-weight: 400;
@@ -146,14 +142,50 @@ body {
     padding-bottom: 16.05px;
 }
 
-.partners-items__img-partners {}
-
 .img-partners__partner {
     margin-right: 18px;
     cursor: pointer;
 }
 
-.img-partners__button-partner{
+.img-partners__button-partner {
     background: none;
     border: none;
+}
+
+/* ============================================================================= */
+
+.main__main-line {
+    margin-left: 92px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 66px ;
+}
+
+.main-line__title {
+    padding-right: 670px;
+}
+
+.main-line__main-button {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.main-button {
+    border: none;
+    border-radius: 6px;
+    background-color: #118DA8;
+    padding: 15px 20px 15px 15px;
+    color: #fff;
+
+}
+
+.main-button:hover{
+    background-color: black;
+    transition: 0.7s;
 }
